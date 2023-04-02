@@ -1,11 +1,56 @@
+:root {
+    --primary-color: #486284;
+    --secondary-color: #8CA2C0;
+    --primary-font-family: 'DM Sans',
+        sans-serif;
+}
+
 * {
-font-family: 'DM Sans', sans-serif;
+font-family: var(--primary-font-family);
+margin: 0;
+padding: 0;
 }
 
 h1 {
-font-weight: bold;
+    font-size: 70px;
+    font-weight: bold;
+    color: #486284;
+    margin: 0;
 }
 
 p {
-font-weight: 400;
+    font-weight: 400;
+}
+
+.hero {
+    text-align: start;
+    padding: 160px;
+}
+
+.hero p {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.hero h2 {
+    font-weight: 400;
+    font-size: 27px;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.btn-branding {
+font-size: 16px;
+border: solid 1px var(--primary-color);
+border-radius: 50px;
+color: #486284;
+padding: 12px 20px;
+margin-top: 16px;
+}
+
+.avatar-aita {
+    width: 226px;
+    border-radius: 15px;
 }
