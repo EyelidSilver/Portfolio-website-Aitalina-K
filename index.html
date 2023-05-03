@@ -1,43 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles/portfolio.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6b56755e93.js" crossorigin="anonymous"></script>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6b56755e93.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-    <div class="hero container">
-        <div class="row justify-content-md-center">
-            <div class="text-intro-section col-8">
-                <p>
-                    👋 Hi, I am
-                </p>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="under-hero row justify-content-md-center">
+          <div class="text-intro-section col">
+            <p>👋 Hi, I am</p>
 
-                <h1>Aitalina Kirillina</h1>
-                <h2>
-                    Front-end developer based in Europe
-                </h2>
-                <a href="#" class="btn btn-branding">Contact me</a>
-            </div>
+            <h1>Aitalina Kirillina</h1>
+            <h2>Front-end developer based in Europe</h2>
+            <a href="#" class="btn btn-branding">Contact me</a>
+          </div>
 
-            <div class="avatar-section col-4"><img src="img/avatar inst.jpg" alt="avatar photo" class="avatar-aita"></div>
+          <div class="avatar-section col d-none d-lg-block">
+            <img
+              src="img/avatar inst.jpg"
+              alt="avatar photo"
+              class="avatar-aita"
+            />
+          </div>
+        </div>
+      </div>
 
+      <div class="projects container">
+        <h2 class="text-center section-name">Featured projects</h2>
+        <div class="project row mb-5 justify-content-md-center">
+          <div class="description-section col">
+            <h2>Project 1</h2>
+            <p class="project-description">
+              Text about this project. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nullam ultricies felis id ligula ultrices, sit
+              amet malesuada risus auctor. Vestibulum sit amet mauris id sapien
+              hendrerit commodo et non tellus. Vivamus dapibus nulla orci, a
+              volutpat velit maximus in.
+            </p>
+            <a href="#" class="btn btn-branding">Launch this project</a>
+          </div>
+          <div class="img-section col d-none d-lg-block">
+            <img
+              src="img/Placeholder image.jpg"
+              alt="placeholder"
+              class="placeholder-img ps-2"
+            />
+          </div>
         </div>
 
+        <div class="project row mb-5 justify-content-md-center">
+          <div class="img-section col d-none d-lg-block">
+            <img
+              src="img/Placeholder image.jpg"
+              alt="placeholder"
+              class="placeholder-img pe-2"
+            />
+          </div>
+          <div class="description-section col">
+            <h2>Project 2</h2>
+            <p class="project-description">
+              Text about this project. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nullam ultricies felis id ligula ultrices, sit
+              amet malesuada risus auctor. Vestibulum sit amet mauris id sapien
+              hendrerit commodo et non tellus. Vivamus dapibus nulla orci, a
+              volutpat velit maximus in.
+            </p>
+            <a href="#" class="btn btn-branding">Launch this project</a>
+          </div>
+        </div>
+
+        <div class="project row mb-5 justify-content-md-center">
+          <div class="description-section col">
+            <h2>Project 3</h2>
+            <p class="project-description">
+              Text about this project. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nullam ultricies felis id ligula ultrices, sit
+              amet malesuada risus auctor. Vestibulum sit amet mauris id sapien
+              hendrerit commodo et non tellus. Vivamus dapibus nulla orci, a
+              volutpat velit maximus in.
+            </p>
+            <a href="#" class="btn btn-branding">Launch this project</a>
+          </div>
+          <div class="img-section col d-none d-lg-block">
+            <img
+              src="img/Placeholder image.jpg"
+              alt="placeholder"
+              class="placeholder-img ps-2"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
