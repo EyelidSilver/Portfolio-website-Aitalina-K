@@ -9,6 +9,37 @@
   margin: 0;
   padding: 0;
 }
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+}
+
+nav a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: #82b2f5;
+}
+
+nav h3 {
+  font-size: 20px;
+}
 
 h1 {
   font-size: 60px;
@@ -117,12 +148,12 @@ p {
   margin: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1030px) {
   .text-intro-section {
     text-align: center;
   }
   .under-hero {
-    padding: 30px 10px 60px 10px;
+    padding: 80px 10px 60px 10px;
   }
 
   .section-name {
@@ -164,7 +195,10 @@ p {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
+  .under-hero {
+    padding: 50px 10px 60px 10px;
+  }
   h1 {
     font-size: 45px;
   }
@@ -186,9 +220,20 @@ p {
     font-size: 22px;
     width: 250px;
   }
+
+  nav a {
+    font-size: 20px;
+  }
+  nav ul {
+    display: block;
+    margin: auto;
+  }
 }
 
 @media (max-width: 300px) {
+  .under-hero {
+    padding: 20px 10px 60px 10px;
+  }
   h1 {
     font-size: 36px;
   }
@@ -206,5 +251,12 @@ p {
   .btn {
     font-size: 17px;
     width: 150px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  nav ul {
+    display: block;
+    margin: 0 auto;
   }
 }
