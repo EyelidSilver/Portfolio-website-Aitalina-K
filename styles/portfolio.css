@@ -24,7 +24,10 @@ h2 {
 }
 
 p {
+  font-size: 20px;
   font-weight: 400;
+  line-height: 32px;
+  color: var(--secondary-color);
 }
 
 .under-hero {
@@ -65,6 +68,8 @@ p {
 .avatar-aita {
   width: 300px;
   border-radius: 15px;
+  display: block;
+  margin: auto;
 }
 
 .project h2 {
@@ -74,18 +79,39 @@ p {
   line-height: 32px;
 }
 
-.project p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  color: var(--secondary-color);
-}
-
 .section-name {
   padding-bottom: 100px;
 }
 
-@media (max-width: 1040px) {
+.about-title-text {
+  margin: 80px 0 40px 0;
+  text-align: center;
+}
+.about-description-text {
+  margin: 80px 20px 40px 20px;
+  text-align: center;
+}
+.about-description {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.about-viewProjectsBtn {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.about-images {
+  margin: 40px 0 80px 0;
+}
+.placeholder-vierkant {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
   .text-intro-section {
     text-align: center;
   }
@@ -116,8 +142,8 @@ p {
   h2 {
     font-size: 28px;
   }
-  .project p {
-    font-size: 16px;
+  p {
+    font-size: 18px;
   }
 
   .placeholder-vierkant {
@@ -129,5 +155,50 @@ p {
   .launchBtn {
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 24px;
+  }
+  .about-title-text {
+    margin: 40px 10px 20px 10px;
+  }
+  .about-description-text {
+    margin: 50px 10px 40px 10px;
+    text-align: start;
+  }
+  .btn {
+    font-size: 22px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 17px;
+  }
+
+  .btn {
+    font-size: 17px;
+    width: 150px;
   }
 }
