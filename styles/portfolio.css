@@ -23,6 +23,12 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: 800;
+}
+
 p {
   font-size: 20px;
   font-weight: 400;
