@@ -126,9 +126,10 @@ p {
   .project h2 {
     text-align: center;
   }
+
   .project-description {
     padding: 0;
-    text-align: center;
+    text-align: start;
   }
 
   .project a {
