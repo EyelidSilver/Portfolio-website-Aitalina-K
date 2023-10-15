@@ -66,6 +66,11 @@ p {
   line-height: 32px;
   color: var(--secondary-color);
 }
+
+.under-hero {
+  padding: 160px;
+}
+
 .text-intro-section {
   align-content: end;
 }
