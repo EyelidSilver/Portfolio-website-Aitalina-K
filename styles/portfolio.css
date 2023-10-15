@@ -235,6 +235,10 @@ footer .social-links a:hover {
     margin: 0 auto;
     width: 190px;
   }
+  
+  footer .contact-box {
+    margin: 20px;
+  }
 }
 
 @media (max-width: 600px) {

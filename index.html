@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio project</title>
+    <meta
+      name="description"
+      content="Aitalina is a Front-end developer based in Europe"
+    />
+    <title>Front-end developer - Aitalina K</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,17 +31,19 @@
     <div class="container">
       <nav class="d-flex justify-content-between">
         <!-- <img src="" alt=" "> -->
-        <a href="/"
-          ><h3 class="d-none d-md-block d-lg-block">Aitalina Kirillina</h3></a
+        <a href="/" title="Homepage"
+          ><h3 class="d-none d-md-block d-lg-block" alt="Aitalina Logo">
+            Aitalina Kirillina
+          </h3></a
         >
 
         <ul>
           <li class="active">
             <a href="/">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/about.html" title="About Aitalina">About</a></li>
+          <li><a href="/work.html" title="Aitalina's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Aitalina">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -50,7 +56,9 @@
 
             <h1>Aitalina Kirillina</h1>
             <h2>Front-end developer based in Europe</h2>
-            <a href="/contact.html" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding" title="Contact Me"
+              >Contact me</a
+            >
           </div>
 
           <div class="avatar-section col d-none d-lg-block col-lg-6">
@@ -67,7 +75,7 @@
         <h2 class="text-center section-name">Featured projects</h2>
         <div class="project row mb-5 justify-content-md-center">
           <div class="description-section col">
-            <h2>Project 1</h2>
+            <h2>Weather App</h2>
             <p class="project-description">
               Text about this project. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Nullam ultricies felis id ligula ultrices, sit
@@ -75,14 +83,14 @@
               hendrerit commodo et non tellus. Vivamus dapibus nulla orci, a
               volutpat velit maximus in.
             </p>
-            <a href="#" class="btn btn-branding launchBtn"
+            <a href="/work.html" class="btn btn-branding launchBtn"
               >Launch this project</a
             >
           </div>
           <div class="img-section col d-none d-lg-block">
             <img
               src="img/Placeholder image.jpg"
-              alt="placeholder"
+              alt="Weather App preview"
               class="placeholder-img ps-2"
             />
           </div>
@@ -92,12 +100,12 @@
           <div class="img-section col d-none d-lg-block">
             <img
               src="img/Placeholder image.jpg"
-              alt="placeholder"
+              alt="World Clock preview"
               class="placeholder-img pe-2"
             />
           </div>
           <div class="description-section col">
-            <h2>Project 2</h2>
+            <h2>World Clock</h2>
             <p class="project-description">
               Text about this project. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Nullam ultricies felis id ligula ultrices, sit
@@ -105,7 +113,7 @@
               hendrerit commodo et non tellus. Vivamus dapibus nulla orci, a
               volutpat velit maximus in.
             </p>
-            <a href="#" class="btn btn-branding launchBtn"
+            <a href="/work.html" class="btn btn-branding launchBtn"
               >Launch this project</a
             >
           </div>
@@ -113,7 +121,7 @@
 
         <div class="project row mb-5 justify-content-md-center">
           <div class="description-section col">
-            <h2>Project 3</h2>
+            <h2>Grocery List</h2>
             <p class="project-description">
               Text about this project. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Nullam ultricies felis id ligula ultrices, sit
@@ -121,41 +129,70 @@
               hendrerit commodo et non tellus. Vivamus dapibus nulla orci, a
               volutpat velit maximus in.
             </p>
-            <a href="#" class="btn btn-branding launchBtn"
+            <a href="/work.html" class="btn btn-branding launchBtn"
               >Launch this project</a
             >
           </div>
           <div class="img-section col d-none d-lg-block">
             <img
               src="img/Placeholder image.jpg"
-              alt="placeholder"
+              alt="Grocery List preview"
               class="placeholder-img ps-2"
             />
           </div>
         </div>
       </div>
-      </div>
       <footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
           <div>
             <h1>Work Inquiry</h1>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding"> Contact Me </a>
+            <a
+              href="/contact.html"
+              target="_blank"
+              class="btn btn-branding"
+              title="Contact Aitalina"
+            >
+              Contact Me
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:blabla@gmail.com" class="email-link"
+          <a
+            href="mailto:blabla@gmail.com"
+            class="email-link"
+            title="Email Aitalina"
             >blabla@gmail.com</a
           >
         </div>
 
         <div class="social-links d-flex justify-content-center">
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="instagram.com" title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/EyelidSilver"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="facebook.com" title="Facebook Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded by Aitalina Kirillina and it is
+          <a
+            href="https://github.com/EyelidSilver/Portfolio-website-Aitalina-K"
+            target="_blank"
+            title="the link to this project"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
     <script
